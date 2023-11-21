@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICON WEBSITES</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function handleImageClick(siteName) {
+            var confirmation = confirm("You clicked on the " + siteName + " image!\nDo you want to proceed?");
+            if (confirmation) {
+                performActionOnImageClick(siteName);
+            } else {
+                cancelActionOnImageClick(siteName);
+            }
+        }
+
+        function performActionOnImageClick(siteName) {
+            alert("Performing action for " + siteName);
+        }
+
+        function cancelActionOnImageClick(siteName) {
+            var cancelConfirmation = confirm("Are you sure you want to cancel?");
+            if (cancelConfirmation) {
+                alert("Cancelled action for " + siteName);
+                console.log("Additional logic for cancellation");
+                // Go back to the previous page
+                window.history.back();
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="frame anime-background">
+
+        <h2>Web System and Technologies</h2>
+
+        <p>SOCIAL MEDIA PLATFORMS</p>
+
+        <h3>Try to click on them</h3>
+
+        <a href="https://www.facebook.com/html/default.asp" onclick="handleImageClick('Facebook')">
+            <img src="https://media1.giphy.com/media/pejyg6fy1JpoQuLQQp/giphy.gif" alt="Facebook" width="380px" height="260px">
+        </a>
+
+        <a href="https://www.youtube.com/html/default.asp" onclick="handleImageClick('YouTube')">
+            <img src="https://cliply.co/wp-content/uploads/2019/07/371907120_YOUTUBE_ICON_TRANSPARENT_400.gif" alt="Youtube" width="380px" height="260px">
+        </a>
+
+        <a href="https://twitter.com/html/default.asp" onclick="handleImageClick('Twitter')">
+            <img src="https://cliply.co/wp-content/uploads/2021/09/CLIPLY_372109260_TWITTER_LOGO_400.gif" alt="Twitter" width="380px" height="260px">
+        </a>
+
+        <a href="https://www.messenger.com/html/default.asp" onclick="handleImageClick('Messenger')">
+            <img src="https://media1.giphy.com/media/SILXCxsl7ZIz3pQS1r/giphy.gif?cid=6c09b952xqsjhybfjtutvtvmryv0dnl4kgkp0hjqupw5auzm&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="Twitter" width="380px" height="260px">
+        </a>
+
+        <a href="https://www.instagram.com/html/default.asp" onclick="handleImageClick('Instagram')">
+            <img src="https://images.squarespace-cdn.com/content/v1/61f30f2d94a2222a9c7f5389/cd6ae8ec-5bcf-4140-86b0-9c4acc8cf376/giphy+%282%29.gif" alt="Twitter" width="380px" height="260px">
+        </a>
+
+        <a href="https://www.Tiktok.com/html/default.asp" onclick="handleImageClick('TIKTOK')">
+            <img src="https://i.pinimg.com/originals/77/97/19/7797190f0f3efd9d5b0b96963d97ed5a.gif" alt="Tiktok" width="380px" height="260px">
+        </a>
+    </div>
+</body>
+
+</html>
+
+    <a href="https://www.youtube.com/html/default.asp" onclick="handleImageClick('YouTube')">
+        <img src="https://cliply.co/wp-content/uploads/2019/07/371907120_YOUTUBE_ICON_TRANSPARENT_400.gif" alt="Youtube" width="380px" height="260px">
+    </a>
+
+    <a href="https://twitter.com/html/default.asp" onclick="handleImageClick('Twitter')">
+        <img src="https://cliply.co/wp-content/uploads/2021/09/CLIPLY_372109260_TWITTER_LOGO_400.gif" alt="Twitter" width="380px" height="260px">
+
+    </a>
+    <a href="https://www.messenger.com/html/default.asp" onclick="handleImageClick('Messenger')">
+        <img src="https://media1.giphy.com/media/SILXCxsl7ZIz3pQS1r/giphy.gif?cid=6c09b952xqsjhybfjtutvtvmryv0dnl4kgkp0hjqupw5auzm&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="Twitter" width="380px" height="260px">
+
+    </a>
+    <a href="https://www.instagram.com/html/default.asp" onclick="handleImageClick('Instagram')">
+        <img src="https://images.squarespace-cdn.com/content/v1/61f30f2d94a2222a9c7f5389/cd6ae8ec-5bcf-4140-86b0-9c4acc8cf376/giphy+%282%29.gif" alt="Twitter" width="380px" height="260px">
+
+    </a>
+    <a href="https://www.Tiktok.com/html/default.asp" onclick="handleImageClick('TIKTOK')">
+        <img src="https://i.pinimg.com/originals/77/97/19/7797190f0f3efd9d5b0b96963d97ed5a.gif" alt="Tiktok" width="380px" height="260px">
+
+    </a>
+</div>
+</body>
+
+</html>
